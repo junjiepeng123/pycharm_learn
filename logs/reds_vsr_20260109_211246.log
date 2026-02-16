@@ -1,0 +1,10 @@
+2026-01-09 21:12:46 - root - INFO - 开始训练
+2026-01-09 21:12:46 - root - INFO - 实验配置:
+Namespace(batch_size=4, checkpoint_dir='./checkpoints', exp_dir='./checkpoints\\reds_vsr_20260109_211246', exp_name='reds_vsr', gpu_id='0', log_dir='./logs', log_freq=20, log_path='./logs\\reds_vsr_20260109_211246.log', lr=0.0001, model='SimpleVSR', n_frames=5, num_blocks=10, num_epochs=100, num_features=64, num_workers=4, patch_size=256, result_dir='./results\\reds_vsr_20260109_211246', resume=None, save_freq=10, scale=4, seed=42, test_hr_dir='./Datasets/VSR/REDS/test/GT', test_lr_dir='./Datasets/VSR/REDS/test/bicubic', train_hr_dir='./Datasets/VSR/REDS/train/GT', train_lr_dir='./Datasets/VSR/REDS/train/bicubic', val_freq=5, val_hr_dir='./Datasets/VSR/REDS/val/GT', val_lr_dir='./Datasets/VSR/REDS/val/bicubic')
+2026-01-09 21:12:46 - root - INFO - 使用设备: cuda
+2026-01-09 21:12:46 - root - INFO - 加载训练集...
+2026-01-09 21:12:46 - root - INFO - 数据集加载完成: 233个视频, 共23300帧
+2026-01-09 21:12:46 - root - INFO - 加载验证集...
+2026-01-09 21:12:46 - root - INFO - 数据集加载完成: 4个视频, 共400帧
+2026-01-09 21:12:46 - root - INFO - 创建模型: SimpleVSR
+2026-01-09 21:12:46 - root - INFO - 开始训练循环
